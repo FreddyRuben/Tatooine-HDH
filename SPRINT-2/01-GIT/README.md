@@ -2,7 +2,8 @@
 
     Que significan y para que sirven las siguientes palabras clave...
 
-        local: Se refiere a los repositorios locales, los que no estan en ningun servidor y todavia estan en edicion.
+        local: Se refiere a los repositorios locales, los que no estan en ningun
+        servidor y todavia estan en edicion.
 
         remote: Se refiere a distancia lo que hace es listar los repositorios remotos.
 
