@@ -28,3 +28,20 @@ Para crear un repositorio lo primero que debemos tener es una cuenta en cualquie
 
 * Para comprobar si se creó el directorio simplemente escribimos el comando `ls` para ver los subdirectorios que tenemos en el directorio actual como vemos en la siguiente imagen.
 ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/06.png?raw=true)
+
+* Hemos comprobado que se creó el directorio llamado Repositorios, ahora simplemente nos dirigimos hacia allá con el comando `cd Repositorios`.
+![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/07.png?raw=true)
+
+* Ya estamos en el nuevo directorio llamado "Repositorios", ahora ha llegado el momento de clonar el Repositorio que creamos en GitHub, ¿recuerdas el enlace que copiamos? pues lo usaremos, escribimos el comando `git clone` y despues pegamos la URL que copiamos de GitHub, seria
+
+  `git clone https://github.com/FreddyRuben/Repository-Example.git`
+
+  Aquí tienes una imagen de ejemplo.
+
+  ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/08.png?raw=true)
+
+* Ahora comprobaremos la clonación identificando el nuevo directorio que se creó dentro de "Repositorios", para eso escribimos nuevamente `ls` y podremos identificar un nuevo directorio con el nombre del repositorio.
+![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/09.png?raw=true)
+
+* Listo, hemos comprobado que el repositorio se clonó correctamente, ahora solo tendremos que movernos a ese nuevo directorio con `cd Repository-Example`, como lo muestra la siguiente imagen.
+![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/10.png?raw=true)
