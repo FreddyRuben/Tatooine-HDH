@@ -50,14 +50,14 @@ Para crear un repositorio lo primero que debemos tener es una cuenta en cualquie
 ## 2. Flujo de trabajo de GIT
 * Una vez que estemos dentro del repositorio que creamos vamos a analizar los archivos que estan dentro del directorio, para eso solo escribimos nuevamente `ls` para ver los archivos que se encuentran dentro del directorio.
 
-  (Image)
+  ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/11.png?raw=true)
 
 * Como podemos observar solo hay dos archivos, "LICENSE"  y "README.md".
 
   Ahora procederemos a revisra las ramas (branches), para eso solo escribimos el comando
   `git branch`
 
-  (Image)
+  ![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/12.png?raw=true)
 
   si se dan cuenta nos mostró la unica rama que tenemos actualmente en nuestro repositorio llamada master, que es la rama en donde enviaremos nuestro proyecto cuando esté en una version estable (esto es muy importante ya que será el protyecto que saldrá en producción).
   Así que para trabajar crearemos una nueva rama con el comando `git branch nombre-de-la-rama`
@@ -67,7 +67,7 @@ Para crear un repositorio lo primero que debemos tener es una cuenta en cualquie
 
   y si volvemos a escribir el comando git branch notaremos que ahora hay 2 ramas, "master" y "develop" como lo muestra la siguiente imagen.
 
-  (Image)
+  ![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/13.png?raw=true)
 
 * Si nos fijamos bien la rama llamada "master inicia con un " * " (asterisco), eso es porque "master" es la rama en la que estamos ubicados, y como mencionamos anteriormente, la rama "master" no debe ser tocada al menos que vayamos a lanzar nuestro proyecto oficialmente.
 Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribimos el comando:
@@ -76,7 +76,7 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
 
   Escribimos develop ya que es el nombre de la rama a la que deseamos cambiarnos, la imagen nos muestra lo que nos deberá mostrar en pantalla despues de cambiarnos de rama.
 
-  (Image)
+  ![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/14.png?raw=true)
 
 * Ahora si escribimos `git branch` nos mostrará que estamos en la rama develop, sin embargo para trabajar localmente es muy recomendable trabajar con una rama temporal que lleve un nombre que haga referencia a los cambios que se van a realizar en el proyecto, así que crearemos otra rama, en este ejmplo le pondremos "temp-branch", para lo cual escribiremos el siguiente comando:
 
