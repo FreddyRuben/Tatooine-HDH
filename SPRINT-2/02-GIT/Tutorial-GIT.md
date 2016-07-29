@@ -54,7 +54,7 @@ Para crear un repositorio lo primero que debemos tener es una cuenta en cualquie
 
 * Como podemos observar solo hay dos archivos, "LICENSE"  y "README.md".
 
-  Ahora precederemos a revisra las ramas (branches), para eso solo escribimos el comando
+  Ahora procederemos a revisra las ramas (branches), para eso solo escribimos el comando
   `git branch`
 
   (Image)
@@ -82,11 +82,11 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
 
   `git branch temp-branch`
 
-  y se debe visualizar algo como esto.
+  ahora escribimos `git branch` y nos debe mostrar las 3 ramas que tenemos creadas.
 
   (image)
 
-* Si ejecutamos el comando `git branch` nos deben aparecer ahora tres ramas, así que tendremos que cambiarnos de rama como lo hicimos anteriormente, con el comando `git checkout nombre-de-la-rama`, entonces ejecutamos el siguiente comando.
+* Tendremos que cambiarnos de rama como lo hicimos anteriormente, con el comando `git checkout nombre-de-la-rama`, entonces ejecutamos el siguiente comando.
 
   `git checkout temp-branch`
 
