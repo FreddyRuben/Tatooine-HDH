@@ -24,7 +24,7 @@ Para crear un repositorio lo primero que debemos tener es una cuenta en cualquie
 * Bien, ya tenemos creado nuesto repositorio, ahora es el momento de pasar a la terminal, vamos a crear un directorio en el escritorio (Puede ser en cualquier directorio del PC, solo se tendra que colocar el comando `cd` seguido de la ruta, por ejemplo: `cd Documents/Repositorios/`).
 
   Para crear el directorio simplemente nos posicionamos es la carpeta deseada (en este caso el escritorio) con `cd Desktop` y crearemos el nuevo directorio con el comando `mkdir nombre-del-directorio` en este ejemplo le pondremos "Repositorios".
-  ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/5.png?raw=true)
+  ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/05.png?raw=true)
 
 * Para comprobar si se creó el directorio simplemente escribimos el comando `ls` para ver los subdirectorios que tenemos en el directorio actual como vemos en la siguiente imagen.
 ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/06.png?raw=true)
