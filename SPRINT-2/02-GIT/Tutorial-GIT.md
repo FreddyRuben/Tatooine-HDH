@@ -84,7 +84,7 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
 
   ahora escribimos `git branch` y nos debe mostrar las 3 ramas que tenemos creadas.
 
-  (image)
+  ![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/15.png?raw=true)
 
 * Tendremos que cambiarnos de rama como lo hicimos anteriormente, con el comando `git checkout nombre-de-la-rama`, entonces ejecutamos el siguiente comando.
 
@@ -120,9 +120,9 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
 
 * A continuación escribiremos en consola `git commit -v nombre-del-archivo` para que nos abra una ventana de texto donde debemos escribir una breve descripción de los cambios que se le hicieron al proyecto.
 
-      ➜  Repository-Example git:(temp-branch) ✗ git commit -v
-      [develop 7adc3ef] commit de prueba
-      1 file changed, 2 insertions(+)
+  `➜  Repository-Example git:(temp-branch) ✗ git commit -v
+[develop 7adc3ef] commit de prueba
+1 file changed, 2 insertions(+)`
 
 * Ahora solo tenemos que hacerle push al repositorio y lo hacemos de la siguiente manera:
 
