@@ -153,4 +153,12 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
 
 ![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/19.png?raw=true)
 
-* Bien ahora tendremos que darle clic en el boton verde llamado "Create pull request" y nos saldrá
+* Bien ahora tendremos que darle clic en el boton verde llamado "Create pull request" y listo, habremos hecho el merge correctamente a develop.
+
+* Hecho todo lo anterior habremos terminado, sin embargo no es necesario tener la branch "temp-branch" así que procederemos a eliminar esa branch.
+
+para ello solo nos volvemos a dirigir a "branches" y le damos en el el cesto de basura correspondiente a "temp-branch" como se muestra en la siguiente imagen.
+
+![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/21.png?raw=true)
+
+* Listo, ahora sabes lo básico de GIT.
