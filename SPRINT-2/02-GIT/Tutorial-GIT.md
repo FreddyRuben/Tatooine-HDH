@@ -2,10 +2,10 @@
 
 ## 1. Crear Repositorio
 Para crear un repositorio lo primero que debemos tener es una cuenta en cualquier servidor GIT, hay muchos servidores, pero en este tutorial no concentraremos en GitHub, si no tienes cuenta puedes crearla completamente gratis [aquí](https://github.com/join?source=header-home).
-* Lo primero que vamos a hacer es dar clic en el signo "+" ubicado en la parte superior derecha de la pantalla y enseguida darle clic en New repository como se muestra en la siguiente imagen.
+* Lo primero que vamos a hacer es dar clic en el simbolo "+" ubicado en la parte superior derecha de la pantalla y enseguida darle clic en "New repository" como se muestra en la siguiente imagen.
 
 ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/01.png?raw=true)
-* Despues de dar clic New Repository te redireccionará a la página de creación de nuevo repositorio donde deberás introducir el nombre del repositorio, una breve descripción, el tipo de acceso, el tipo de licencia y si lo deseas puedes iniciar con un archivo README.md que es muy importante ya que en este se ingresa información importante a cerca del proyecto realizado en este repositorio.
+* Despues de dar clic "New Repository" nos redireccionará a la página de creación de nuevo repositorio donde deberás introducir el nombre del repositorio, una breve descripción, el tipo de acceso, el tipo de licencia y si lo deseas puedes iniciar con un archivo README.md (este ultimo es muy importante ya que en este se ingresa información importante a cerca del proyecto realizado en este repositorio).
 
   La siguiente imagen muestra un ejemplo de como rellenar los campos.
 
@@ -15,7 +15,7 @@ Para crear un repositorio lo primero que debemos tener es una cuenta en cualquie
 ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/02.png?raw=true)
 * Una vez que le demos clic en el botón "Create repository" la página nos redireccionará a la raíz de nuestro repositorio.
 
-  En este apartado le vamos a dar clic en el boton verde llamado Clone or download.
+  En este apartado le vamos a dar clic en el boton verde llamado "Clone or download".
 
 ![Sin titulo](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/03.png?raw=true)
 * Se nos abrirá una pequeña ventana donde se mostrará una URL para clonar el repositorio, debemos seleccionarla y copiar el enlace.
@@ -138,3 +138,19 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
       Total 4 (delta 0), reused 0 (delta 0)
       To https://github.com/FreddyRuben/Repository-Example.git
       *   [new branch]      temp-branch -> temp-branch
+
+## 3. Volviendo a GitHub
+
+* Si llegamos a este punto es porque ya tenemos todo listo para para enviar los cambios a la rama develop, lo que tenemos que hacer ahora es ingresar a la pagina de GitHub nuevamente, ¿Recuerdas como? si no es así te recuerdo, es ingresar a [www.github.com](www.github.com) e ingresamos a nuestro repositorio (si no has ingresado con tu cuenta hazlo, ya que de lo contrario no podrás continuar), y en nuestro repositorio le damos clic en el enlace que dice "branches", si no lo ubicas aqui tienes una imagen.
+
+![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/16.png?raw=true)
+
+* Bien, una vez dentro de "branches" vamos a identificar la rama "temp-branch" y vamos a darle clic en el boton "New pull request" como se muestra a continuación.
+
+![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/17.png?raw=true)
+
+* Ahora nos muestra una pagina donde tenemos que ser muy cuidadoso, ya que en base debe quedar como develop (no master). Y en compare debe quuedar "temp-branch", si bajamos la ventana podremos visualizar los cambios efectuados como se muestra en la siguiente imagen.
+
+![](https://github.com/FreddyRuben/Tatooine-HDH/blob/develop/SPRINT-2/02-GIT/image/19.png?raw=true)
+
+* Bien ahora tendremos que darle clic en el boton verde llamado "Create pull request" y nos saldrá
