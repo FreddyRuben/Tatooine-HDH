@@ -95,8 +95,7 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
 
   Si escribimos el comando `git status` nos mostrará algo como esto.
 
-
-    ➜  Repository-Example git:(temp-branch) git status
+      ➜  Repository-Example git:(temp-branch) git status
       On branch temp-branch
       Changes not staged for commit:
       (use "git add <file>..." to update what will be committed)
@@ -106,7 +105,7 @@ Entonces lo que debemos hacer es cambiarnos a la rama develop, para eso escribim
 
       no changes added to commit (use "git add" and/or "git commit -a")
 
-  * Lo que GIT nos dice es que es que hay archivos que fueron modificados y que necesitan ser agregados para que se le pueda dar seguimiento, y poderle hacer commit, para lo cual escribimos `git add nombre-del-archivo`, en nuestro caso sería de la siguiente manera:
+* Lo que GIT nos dice es que es que hay archivos que fueron modificados y que necesitan ser agregados para que se le pueda dar seguimiento, y poderle hacer commit, para lo cual escribimos `git add nombre-del-archivo`, en nuestro caso sería de la siguiente manera:
 
   `git add README.md`
 
