@@ -14,7 +14,7 @@ Como mencionamos anteriormente, Markdown convierte nuestro código a HTML lo que
 
   Aquí hay un listado de las palabras claves mas utilizadas.
 
-  * Encabezados.
+  * **Encabezados.**
 
   Código:
 
@@ -43,7 +43,7 @@ Como mencionamos anteriormente, Markdown convierte nuestro código a HTML lo que
 
   ***
 
-  * Formato
+  * **Formato**
 
   Código:
 
@@ -65,7 +65,7 @@ Como mencionamos anteriormente, Markdown convierte nuestro código a HTML lo que
 
   ***
 
-* Enlaces
+* **Enlaces**
 
     Para los enlaces hay dos maneras, con titulo y sin titulo. Tambien se pueden colocar en lista cuando se requiere escribir varios enlaces.
 
@@ -94,7 +94,7 @@ Como mencionamos anteriormente, Markdown convierte nuestro código a HTML lo que
 
 ***
 
-* Imágenes
+* **Imágenes**
 
 Código:
 
@@ -105,3 +105,59 @@ Resultado:
 ![](https://i.ytimg.com/vi/Jh0er2pRcq8/maxresdefault.jpg)
 
 ***
+
+Código:
+
+    ![Texto alternativo][1]  ![Texto alternativo][2]
+
+    [1]: https://i.ytimg.com/vi/Jh0er2pRcq8/maxresdefault.jpg
+    [2]: http://www.ofek.co.in/images/articlesphotos/mean.png "MEAN STACK"
+
+  Resultado:
+
+  ![Texto alternativo][1]  ![Texto alternativo][2]
+
+  [1]: https://i.ytimg.com/vi/Jh0er2pRcq8/maxresdefault.jpg
+  [2]: http://www.ofek.co.in/images/articlesphotos/mean.png "MEAN STACK"
+
+  ***
+
+* **Listas**
+
+  Existen dos tipos de listas, las numeradas y las de puntos, veremos un ejemplo de las dos.
+
+  Código:
+
+      Lista numerada
+
+      1. Primer elemento
+      2. Segundo elemento
+      3. Tercer elemento
+      4. Cuarto elemnto
+      5. Quinto elemento
+
+  Resultado:
+
+  1. Primer elemento
+  2. Segundo elemento
+  3. Tercer elemento
+  4. Cuarto elemnto
+  5. Quinto elemento
+
+Código:
+
+    Lista de puntos
+
+      - Primer elemento
+      - Segundo elemento
+      - Tercer elemento
+      - Cuarto elemento
+      - Quinto elemento
+
+  Resultado:
+
+- Primer elemento
+- Segundo elemento
+- Tercer elemento
+- Cuarto elemento
+- Quinto elemento
