@@ -20,3 +20,21 @@ Se hace una previsión del reparto de historias de usuario por iteración.
 Se hace un estudio de la arquitectura.
 
 ![](https://www.capgemini.com/sites/default/files/technology-blog/files/2011/05/Grafx-Scrum-Sprint.png)
+
+***
+
+# Explicación   breve
+
+## Sprint
+1. Organiza el trabajo en partes pequeñas y concretas.
+2. Optimiza el proceso en cada iteración.
+3. Durante el Sprint no debe haber cambios de nada.
+4. Se caracteriza por la velocidad de los procesos.
+5. Reuniones diarias hace mas eficaz al equipo.
+
+## Kanban
+1. Visualiza el flujo de trabajo.
+2. Limita el trabajo en progreso por fases.
+3. No hay roles.
+4. En Kanban cada item en la lista de cosas pendientes no se te indica que debe ser de menor duración al tiempo del Sprint.
+5. Poca comunicacion entre los miembros del equipo.
